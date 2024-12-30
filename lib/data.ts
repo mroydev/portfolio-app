@@ -76,7 +76,7 @@ export const projectsData = [
       'Prisma',
     ],
     imageUrl: petsoftImg,
-    url: 'https://petsoft-liart.vercel.app',
+    url: 'https://portfolio-app-mroy.vercel.app',
   },
   {
     title: 'Stack-Overflow',
@@ -93,7 +93,7 @@ export const projectsData = [
       'The Issue Tracker app  offers features like creating, updating, and monitoring issues, providing a user-friendly interface and robust database integration.',
     tags: ['React', 'Next.js', 'Tailwind', 'MySQL', 'Prisma'],
     imageUrl: issuetrackerImg,
-    url: 'https://issue-tracker-liard-mu.vercel.app',
+    url: 'https://issue-tracker-mroy.vercel.app',
   },
   {
     title: 'Amazon',
