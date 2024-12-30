@@ -76,7 +76,7 @@ export const projectsData = [
       'Prisma',
     ],
     imageUrl: petsoftImg,
-    url: 'https://portfolio-app-mroy.vercel.app',
+    url: 'https://petsoft-mroy.vercel.app',
   },
   {
     title: 'Stack-Overflow',
