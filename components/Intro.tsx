@@ -78,9 +78,10 @@ export default function Intro() {
         <Link
           href="#contact"
           className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-none transition hover:scale-110 hover:bg-gray-950 focus:scale-110 active:scale-105"
-          onClick={() => {
+          onClick={(e) => {
             setActiveSection('Contact');
             setTimeOfLastClick(Date.now());
+            e.currentTarget.style.transform = 'scale(1)';
           }}
         >
           Contact me here{' '}
@@ -91,8 +92,11 @@ export default function Intro() {
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
           href="/M_Roy.pdf"
           download
+          onClick={(e) => {
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
         >
-          Download CV{' '}
+          Download CV
           <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
         </a>
 
@@ -100,6 +104,9 @@ export default function Intro() {
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-gray-700 dark:text-white"
           href="https://linkedin.com"
           target="_blank"
+          onClick={(e) => {
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
         >
           <BsLinkedin />
         </a>
@@ -108,6 +115,9 @@ export default function Intro() {
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-gray-700 dark:text-white"
           href="https://github.com"
           target="_blank"
+          onClick={(e) => {
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
         >
           <FaGithubSquare />
         </a>
